@@ -6,19 +6,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Noel Codes Portfolio</title>
         <link rel="stylesheet" href="styles.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
-            rel="stylesheet"
-        />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Lato&family=Raleway:wght@500&display=swap" rel="stylesheet">
     </head>
     <!-- HOMEPAGE -->
     <body>
         <!-- NAVBAR -->
         <nav class="navbarContainer">
             <div class="logoContainer">
-                <img src="/images/logo.svg" alt="Noel Codes as the name and an x as the image above" />
+                <img
+                    src="/images/logo.svg"
+                    alt="Noel Codes as the name and an x as the image above"
+                />
             </div>
 
             <div class="hamburgerMenu">
@@ -26,18 +26,37 @@
                 <span class="hamburgerLine"></span>
                 <span class="hamburgerLine"></span>
             </div>
-            
+
             <ul class="linksContainer inactive">
                 <li class="link">Home</li>
                 <li class="link">Bio</li>
                 <li class="link">Resume</li>
                 <li class="link">Portfolio</li>
             </ul>
-        
         </nav>
 
         <!-- MAIN HEADER -->
-        <header></header>
+        <header class="headerContainer">
+            <div class="headerTitleContainer">
+                <p class="headerIntro">Hello, I'm</p>
+                <h1>NOEL CODES</h1>
+                <p class="headerSubtitle">a self-taught SWE.</p>
+            </div>
+
+            <div class="aboutContainer">
+                <p>
+                    I've always been interested in computers but didn't learn
+                    programming until the age of 24. I love all things tech and space. I'm
+                    constantly learning, and when I am not, I'm playing video
+                    games. My life goal is to help us get to space in this
+                    generation.
+                </p>
+            </div>
+
+            <div class="imageContainer">
+                <img src="./images/me.jpg" alt="Noel Covarrubias, aka Noel Codes" />
+             </div>
+        </header>
         <script src="index.js" />
     </body>
 </html>
