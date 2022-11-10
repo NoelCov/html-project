@@ -4,13 +4,12 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Noel Codes | Home Page</title>
-        <link rel="stylesheet" href="styles.css" />
+        <title>Noel Codes | Resume Page</title>
+        <link rel="stylesheet" href="../styles.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter&family=Lato&family=Raleway:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter&family=Lato&family=Poppins&family=Raleway:wght@500&display=swap" rel="stylesheet">
     </head>
-    <!-- HOMEPAGE -->
     <body id="homePage">
         <!-- NAVBAR -->
         <nav class="navbarContainer">
@@ -30,37 +29,47 @@
             </div>
 
             <ul class="linksContainer inactive">
-                <a href="#homePage"><li class="link">Home</li></a>
-                <a href="./pages/resumePage.html"><li class="link">Resume</li></a>
+                <a href="../index.html"><li class="link">Home</li></a>
+                <a href="./pages/resumePage.html"
+                    ><li class="link">Resume</li></a
+                >
                 <li class="link">Portfolio</li>
             </ul>
         </nav>
 
-        <!-- MAIN HEADER -->
-        <header class="headerContainer">
-            <div class="headerTitleContainer">
-                <p class="headerIntro">Hello, I'm</p>
-                <h1>Noel Codes</h1>
-                <p class="headerSubtitle">a self-taught SWE.</p>
-            </div>
-
-            <div class="aboutContainer">
-                <p>
-                    I've always been interested in computers but didn't learn
-                    programming until the age of 24. I love all things tech and
-                    space. I'm constantly learning, and when I am not, I'm
-                    playing video games. My life goal is to help us get to space
-                    in this generation.
-                </p>
-            </div>
-
-            <div class="imageContainer">
-                <img
-                    src="./images/me.jpg"
-                    alt="Noel Covarrubias, aka Noel Codes"
-                />
-            </div>
-        </header>
+        <main>
+            <section class="resumeContainer">
+                <h2>Work Experience</h2>
+                <div class="workExperienceContainer">
+                    <h3 class="titleAndCompany">Trainer - Amazon</h3>
+                    <span class="timePeriod">August 2018 - July 2020</span>
+                    <div class="textContainer">
+                        <p>
+                            Improved training techniques for new hires as well as
+                            bringing in new examples and ways to explain the various
+                            tasks they’ll be doing, resulting in achieving better
+                            job retention.
+                        </p>
+    
+                        <p>
+                            Managed the training for new hires as well as getting
+                            new trainers that could perform the training at a really
+                            good level so that new hires would be ready to perform
+                            all duties necessary for their job no later than two
+                            weeks after being hired.
+                        </p>
+    
+                        <p>
+                            Decreased amount of time required to load trucks by
+                            implementing new techniques during the process, as well
+                            as advising loaders and managers on how to keep up with
+                            the pace in which we received the product.
+                        </p>
+                    </div>
+                    <hr />
+                </div>
+            </section>
+        </main>
 
         <footer class="footerContainer">
             <div class="iconsContainer">
@@ -110,6 +119,6 @@
             <p>Portfolio built by Noel Codes</p>
         </footer>
 
-        <script src="index.js" />
+        <script src="../index.js"></script>
     </body>
 </html>
