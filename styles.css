@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter&family=Lato&family=Poppins&family=Raleway:wght@500&display=swap');
+
 /* export const breakpoints = {
     xs: "0px",
     sm: "600px",
@@ -236,6 +238,39 @@ a {
     gap: 8px;
 }
 
+/* PORTFOLIO PAGE */
+.projectContainer {
+    background-color: #112240;
+    padding: 32px 24px;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    margin: 24px 0;
+}
+
+.projectTitle {
+    color: #ccd6f6;
+    font-size: 22px;
+}
+
+.projectAbout {
+    color: #8892b0;
+}
+
+.toolsContainer {
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-auto-flow: row;
+    font-family: "Fira code";
+    color: #64ffda;
+    font-size: 14px;
+    gap: 8px;
+    /* margin: 24px 0 0; */
+}
+
 @media (min-width: 600px) {
     .linksContainer {
         width: 50vw;
@@ -360,7 +395,7 @@ a {
     }
 
     .content {
-        height: 75vh;
+        height: 80vh;
     }
 
     .resumeContainer {

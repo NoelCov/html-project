@@ -4,13 +4,10 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Noel Codes | Home Page</title>
-        <link rel="stylesheet" href="styles.css" />
-
+        <title>Noel Codes | Portfolio Page</title>
+        <link rel="stylesheet" href="../styles.css" />
     </head>
-    <!-- HOMEPAGE -->
-    <body id="homePage">
-        <!-- NAVBAR -->
+    <body id="portfolioPage">
         <nav class="navbarContainer">
             <a href="#homePage">
                 <div class="logoContainer">
@@ -28,40 +25,62 @@
             </div>
 
             <ul class="linksContainer inactive">
-                <a href="#homePage"><li class="link">Home</li></a>
-                <a href="./pages/resumePage.html"><li class="link">Resume</li></a>
-                <a href="./pages/portfolioPage.html"><li class="link">Portfolio</li></a>
+                <a href="../index.html"><li class="link">Home</li></a>
+                <a href="./resumePage.html"><li class="link">Resume</li></a>
+                <a href="#portfolioPage"> <li class="link">Portfolio</li></a>
             </ul>
         </nav>
 
-        <!-- MAIN HEADER -->
-        <main class="content">
-            <header class="headerContainer">
-                <div class="headerTitleContainer">
-                    <p class="headerIntro">Hello, I'm</p>
-                    <h1>Noel Codes</h1>
-                    <p class="headerSubtitle">a self-taught SWE.</p>
-                </div>
-    
-                <div class="aboutContainer">
-                    <p>
-                        I've always been interested in computers but didn't learn
-                        programming until the age of 24. I love all things tech and
-                        space. I'm constantly learning, and when I am not, I'm
-                        playing video games. My life goal is to help us get to space
-                        in this generation.
-                    </p>
-                </div>
-    
-                <div class="imageContainer">
-                    <img
-                        src="./images/me.jpg"
-                        alt="Noel Covarrubias, aka Noel Codes"
-                    />
-                </div>
-            </header>
-        </main>
+        <main>
+            <section class="resumeContainer">
+                <h2>Portfolio</h2>
 
+                <div class="projectContainer">
+                    <h3 class="projectTitle">Computer Repair Shop</h3>
+                    <p class="projectAbout">
+                        A website created for a computer repair shop in town.
+                        Built it so that potential customers could see what
+                        their work is and realted information. The website
+                        increased their customer acquisition by 13%
+                    </p>
+                    <span class="toolsContainer">
+                        <p class="tool">- NextJS</p>
+                        <p class="tool">- HTML</p>
+                        <p class="tool">- Styled Components</p>
+                    </span>
+                </div>
+
+                <div class="projectContainer">
+                    <h3 class="projectTitle">Lorem Ipsum</h3>
+                    <p class="projectAbout">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Mattis rhoncus urna neque viverra justo
+                        nec ultrices dui.
+                    </p>
+                    <span class="toolsContainer">
+                        <p class="tool">- NextJS</p>
+                        <p class="tool">- HTML</p>
+                        <p class="tool">- Styled Components</p>
+                        <p class="tool">- Node</p>
+                    </span>
+                </div>
+
+                <div class="projectContainer">
+                    <h3 class="projectTitle">Lorem Ipsum</h3>
+                    <p class="projectAbout">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Mattis rhoncus urna neque viverra justo
+                        nec ultrices dui.
+                    </p>
+                    <span class="toolsContainer">
+                        <p class="tool">- C++</p>
+                        <p class="tool">- Rust</p>
+                    </span>
+                </div>
+            </section>
+        </main>
 
         <footer class="footerContainer">
             <div class="iconsContainer">
@@ -111,6 +130,6 @@
             <p>Portfolio built by Noel Codes</p>
         </footer>
 
-        <script src="index.js" />
+        <script src="../index.js"></script>
     </body>
 </html>
