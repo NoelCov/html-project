@@ -238,6 +238,21 @@ a {
     gap: 8px;
 }
 
+.portfolioContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85vw;
+    margin: 60px auto;
+}
+
+.portfolioContainer h2 {
+    font-family: "Raleway", "sans-serif";
+    color: #ccd6f6;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
 /* PORTFOLIO PAGE */
 .projectContainer {
     background-color: #112240;
@@ -268,7 +283,6 @@ a {
     color: #64ffda;
     font-size: 14px;
     gap: 8px;
-    /* margin: 24px 0 0; */
 }
 
 @media (min-width: 600px) {
@@ -387,6 +401,11 @@ a {
             padding: 60px 0;
             width: 70vw;
         }
+
+        .portfolioContainer {
+            padding: 60px 0;
+            width: 70vw;
+        }
 }
 
 @media (min-width: 1536px){
@@ -401,5 +420,9 @@ a {
     .resumeContainer {
         padding: 100px 0;
         width: 60vw;
+    }
+
+    .portfolioContainer {
+        width: 50vw;
     }
 }
